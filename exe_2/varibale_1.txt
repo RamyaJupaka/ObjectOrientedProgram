@@ -1,0 +1,55 @@
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace variables_1
+{
+    class Program
+    {
+        
+        static void Main(string[] args)
+        {
+            string name ;
+            string collegename;
+            string city ;
+            string address;
+            int age;
+           int ID;
+
+            Console.WriteLine("Please enter your name : ");
+            name = Console.ReadLine();
+
+            Console.WriteLine("Please enter your college name : ");
+            collegename = Console.ReadLine();
+
+            Console.WriteLine("Please enter your city : ");
+            city = Console.ReadLine();
+
+            Console.WriteLine("Please enter your address :");
+            address = Console.ReadLine();
+
+            Console.WriteLine("Enter Age : ");
+            age = Convert.ToInt32(Console.ReadLine());
+
+            Console.WriteLine("Enter ID : ");
+            ID = Convert.ToInt32(Console.ReadLine());
+
+            Console.WriteLine("Student Information:");
+            Console.WriteLine("============\n");
+
+            Console.WriteLine("Name = {0}", name);
+            Console.WriteLine("CollegeName = {0}", collegename);
+            Console.WriteLine("City = {0}", city);
+            Console.WriteLine("Address = {0}", address);
+            Console.WriteLine("ID = {0}", ID);
+            Console.WriteLine("Age = {0}", age);
+
+            Console.WriteLine("===============");
+
+            Console.ReadLine();
+
+        }
+    }
+}
