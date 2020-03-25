@@ -1,0 +1,61 @@
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace variablesdatatype
+{
+    class Program
+    {
+        static void Main(string[] args)
+        {
+            int result;
+
+            int num1 , num2 ;
+
+            Console.WriteLine("Enter First Number : ");
+            num1 = Convert.ToInt16(Console.ReadLine());
+
+            Console.WriteLine("Enter Second Number : ");
+            num2 = Convert.ToInt16(Console.ReadLine());
+
+            Console.WriteLine("=======================Result of Simple Calculator========= ");
+
+
+            result = (num1 + num2);
+
+            Console.WriteLine("Addition Operator: " +num1 +"+" +num2 +"=" + result);
+
+            Console.WriteLine("============================================== ");
+
+
+
+            result = (num1 - num2);
+            Console.WriteLine("Subtraction Operator: " +num1 +" - " +num2 +" = " + result);
+
+
+            Console.WriteLine("=============================================== ");
+
+
+
+            result = (num1 * num2);
+            Console.WriteLine("Multiplication Operator: " + num1 + " * " + num2 + " = " + result);
+
+
+            Console.WriteLine("=============================================== ");
+
+
+            result = (num1 / num2);
+            Console.WriteLine("Division Operator: " + num1 + " / " + num2 + " = " + result);
+
+            Console.WriteLine("=============================================== ");
+
+            Console.WriteLine("Press Enter Key to Exit..");
+
+            Console.ReadLine();
+
+
+        }
+    }
+}
